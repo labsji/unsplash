@@ -1,0 +1,4 @@
+title: unsplash-photo
+renderType: freemarker
+templateScript: /unsplash/templates/components/unsplash-photo.ftl
+dialog: unsplash:components/unsplash-photo

@@ -1,0 +1,24 @@
+# Automatically generated dialog with few most often used fields (text, right, link, DAM image, multivalue, link to app, select). Feel free to modify them for your specific component.
+
+label: unsplash-photo
+form:
+  properties:
+    title:
+      $type: textField
+      label: Title
+      i18n: true
+    unsplashPhoto:
+      label: Unsplash Photo
+      $type: linkField
+      datasource:
+         $type: jcrDatasource
+         workspace: unsplash
+      chooser:
+           workbenchChooser:
+                  workbench:
+                      contentViews:
+                        - name: thumbnailView
+                          $type: thumbnailView
+                      extensionViews:
+                        - name: fullTextSearch
+                          class: info.magnolia.ui.chooser.definition.FullTextSearchExtensionViewDefinition

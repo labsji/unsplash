@@ -1,0 +1,4 @@
+title: unsplash-random
+renderType: freemarker
+templateScript: /unsplash/templates/components/unsplash-random.ftl
+dialog: unsplash:components/unsplash-random

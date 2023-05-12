@@ -1,0 +1,14 @@
+baseUrl: https://api.unsplash.com/photos
+restCalls:
+   specificphoto:
+      method: get
+      path: /xQd6htA8er4
+      entityClass: com.fasterxml.jackson.databind.JsonNode
+      headers:
+         Authorization: Bearer 2YGsiwb4_6mOOdxdsL8-VHIcSdXCim_ZylabtWuXzzY
+   random:
+      method: get
+      path: /random
+      entityClass: com.fasterxml.jackson.databind.JsonNode
+      headers:
+              Authorization: '{@password:77cfdec7-6e03-41c7-bbe3-99488b11b206}'

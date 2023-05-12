@@ -1,0 +1,25 @@
+!content-type:unsplash
+name: unsplash
+label: unsplash
+datasource:
+  preview:
+        nodeName: thumbnail
+
+subApps:
+  browser:
+        workbench:
+              contentViews:
+                - name: thumbnailView
+                  $type: thumbnailView
+              extensionViews:
+                - name: fullTextSearch
+                  class: info.magnolia.ui.chooser.definition.FullTextSearchExtensionViewDefinition
+
+
+# Optionally override any of the app configuration supplied by the content type.
+# subApps:
+#   detail:
+#     form:
+#       properties:
+#         title:
+#           rows: 5
